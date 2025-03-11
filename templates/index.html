@@ -1,0 +1,99 @@
+{% extends "layout.html" %} {% block content %}
+<div class="row">
+  <div class="col-12">
+    <div class="game-card">
+      <h2 class="mb-3">Bienvenue sur Pandora Show !</h2>
+      <p class="lead">
+        Préparez-vous à tester vos connaissances et défier l'équipe adverse !
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <!-- Carte Thème -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Thème actuel</h4>
+      <div class="theme-display" id="currentTheme">Aucun</div>
+    </div>
+  </div>
+
+  <!-- Carte Dé -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Lancer de dé</h4>
+      <div class="dice-container">
+        <div class="dice" id="diceValue">-</div>
+        <p id="diceLabel">Dernier lancer</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carte Compte à rebours -->
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="game-card">
+      <h4>Compte à rebours</h4>
+      <div class="countdown-container">
+        <div class="countdown-circle">
+          <svg viewBox="0 0 100 100">
+            <circle r="45" cx="50" cy="50"></circle>
+          </svg>
+          <span class="countdown-number" id="countdownDisplay">--</span>
+        </div>
+      </div>
+      <div id="countdownFinished" style="display: none">Temps écoulé !</div>
+    </div>
+  </div>
+</div>
+
+<!-- Carte Quiz -->
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="game-card">
+      <h3>Question Quiz</h3>
+      <div id="quizQuestionContainer">
+        <div class="quiz-question" id="quizQuestionDisplay">
+          En attente de la question...
+        </div>
+      </div>
+      <div id="quizAnswerContainer" style="display: none">
+        <div class="quiz-answer" id="quizAnswerDisplay"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carte Scores -->
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="game-card">
+      <h3>Tableau des scores</h3>
+      <div id="scoresContainer">
+        <div class="score-box team1">
+          <h4>Équipe 1</h4>
+          <div class="score-value" id="scoreTeam1">0</div>
+        </div>
+        <div class="score-box team2">
+          <h4>Équipe 2</h4>
+          <div class="score-value" id="scoreTeam2">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carte Joueurs connectés -->
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="game-card">
+      <h3>Joueurs connectés</h3>
+      <div id="playersList">
+        <!-- Liste dynamique -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

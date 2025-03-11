@@ -1,0 +1,184 @@
+{% extends "layout.html" %} {% block content %} {% if not
+session.get('is_admin') %}
+<!-- Formulaire de login admin -->
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <div class="game-card">
+      <h2>Accès administrateur</h2>
+      {% if error %}
+      <div class="alert alert-danger">{{ error }}</div>
+      {% endif %}
+      <form method="POST">
+        <div class="mb-3">
+          <label for="password" class="form-label">Mot de passe admin :</label>
+          <div class="input-group">
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              required
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="togglePassword"
+            >
+              <i class="bi bi-eye"></i>
+            </button>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% else %}
+<!-- Interface administrateur -->
+<div class="row">
+  <div class="col-12">
+    <div class="game-card">
+      <h2>Pandora Show - Panneau d'administration</h2>
+      <p class="lead">Gérez votre jeu en direct depuis ce panneau.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <!-- Gestion des équipes -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Gestion des équipes</h4>
+      <form action="{{ url_for('route_auto_teams') }}" method="POST">
+        <p>Répartir aléatoirement les joueurs en deux équipes équilibrées.</p>
+        <button type="submit" class="btn btn-warning">
+          <i class="bi bi-people-fill"></i> Former les équipes
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Gestion des scores -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Gestion des scores</h4>
+      <form action="{{ url_for('update_score') }}" method="POST" class="mb-3">
+        <div class="input-group mb-3">
+          <select name="team" class="form-select">
+            <option value="1">Équipe 1</option>
+            <option value="2">Équipe 2</option>
+          </select>
+          <input
+            type="number"
+            name="points"
+            class="form-control"
+            placeholder="Points"
+            value="1"
+          />
+          <button type="submit" class="btn btn-success">Ajouter</button>
+        </div>
+      </form>
+      <form action="{{ url_for('update_score') }}" method="POST">
+        <div class="input-group">
+          <select name="team" class="form-select">
+            <option value="1">Équipe 1</option>
+            <option value="2">Équipe 2</option>
+          </select>
+          <input
+            type="number"
+            name="points"
+            class="form-control"
+            placeholder="Points"
+            value="-1"
+          />
+          <button type="submit" class="btn btn-danger">Retirer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <!-- Gestion du compte à rebours -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Compte à rebours</h4>
+      <form
+        action="{{ url_for('start_countdown') }}"
+        method="POST"
+        class="mb-3"
+      >
+        <div class="input-group">
+          <input
+            type="number"
+            name="seconds"
+            class="form-control"
+            placeholder="Secondes"
+            value="30"
+          />
+          <button type="submit" class="btn btn-primary">Démarrer</button>
+        </div>
+      </form>
+      <form action="{{ url_for('stop_countdown') }}" method="POST">
+        <button type="submit" class="btn btn-danger">Arrêter</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Gestion de la roulette et du dé -->
+  <div class="col-md-6">
+    <div class="game-card">
+      <h4>Roulette (Thème)</h4>
+      <form action="{{ url_for('spin_roulette') }}" method="POST" class="mb-3">
+        <p>Choisir aléatoirement un thème pour la question.</p>
+        <button type="submit" class="btn btn-info">
+          <i class="bi bi-arrow-clockwise"></i> Lancer la roulette
+        </button>
+      </form>
+      <h4>Lancer de dé</h4>
+      <form action="{{ url_for('roll_dice') }}" method="POST">
+        <p>Lancer un dé pour obtenir un nombre aléatoire entre 1 et 6.</p>
+        <button type="submit" class="btn btn-secondary">
+          <i class="bi bi-dice-1"></i> Lancer le dé
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <!-- Gestion du Quiz -->
+  <div class="col-md-12">
+    <div class="game-card">
+      <h4>Quiz</h4>
+      <form action="{{ url_for('next_question') }}" method="POST" class="mb-3">
+        <p>Passer à la question suivante.</p>
+        <button type="submit" class="btn btn-warning">
+          <i class="bi bi-arrow-right-circle"></i> Question suivante
+        </button>
+      </form>
+      <form action="{{ url_for('reveal_answer') }}" method="POST">
+        <p>Révéler la réponse de la question actuelle.</p>
+        <button type="submit" class="btn btn-primary">
+          <i class="bi bi-eye-fill"></i> Révéler la réponse
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <!-- Réinitialisation du jeu -->
+  <div class="col-md-12">
+    <div class="game-card">
+      <h4>Réinitialiser le jeu</h4>
+      <form action="{{ url_for('reset_game') }}" method="POST">
+        <p>Remettre à zéro les scores, équipes, thème et quiz.</p>
+        <button type="submit" class="btn btn-danger">
+          <i class="bi bi-arrow-counterclockwise"></i> Réinitialiser le jeu
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endif %} {% endblock %}

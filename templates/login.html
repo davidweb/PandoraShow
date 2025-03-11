@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block content %}
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <div class="game-card">
+      <h2 class="mt-5">Entrez votre pseudo pour Pandora Show</h2>
+      <form method="POST" class="mt-3">
+        <div class="mb-3">
+          <label for="username" class="form-label">Pseudo :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            name="username"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Entrer</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

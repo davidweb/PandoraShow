@@ -1,0 +1,403 @@
+[
+    {
+      "question": "Quel est le plus grand pays du monde ?",
+      "answer": "La Russie"
+    },
+    {
+      "question": "Qui a peint la Joconde ?",
+      "answer": "Léonard de Vinci"
+    },
+    {
+      "question": "Combien de dents possède un chien adulte ?",
+      "answer": "42"
+    },
+    {
+      "question": "Quelle est la capitale de l'Australie ?",
+      "answer": "Canberra"
+    },
+    {
+      "question": "Quel est le symbole chimique de l'or ?",
+      "answer": "Au"
+    },
+    {
+      "question": "Quel est le plus haut sommet du monde ?",
+      "answer": "L'Everest"
+    },
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "answer": "Paris"
+    },
+    {
+      "question": "Quel est l'organe principal du système circulatoire ?",
+      "answer": "Le cœur"
+    },
+    {
+      "question": "Quel est le plus long fleuve du monde ?",
+      "answer": "Le Nil"
+    },
+    {
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "answer": "Victor Hugo"
+    },
+    {
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "answer": "1789"
+    },
+    {
+      "question": "Quel est le plus grand océan du monde ?",
+      "answer": "L'océan Pacifique"
+    },
+    {
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "answer": "Mercure"
+    },
+    {
+      "question": "Quel est l'élément chimique dont le symbole est O ?",
+      "answer": "Oxygène"
+    },
+    {
+      "question": "Quel est le plus grand désert du monde ?",
+      "answer": "L'Antarctique"
+    },
+    {
+      "question": "Quel pays est connu sous le nom de 'Pays du Soleil Levant' ?",
+      "answer": "Le Japon"
+    },
+    {
+      "question": "Qui est l'auteur de 'Le Petit Prince' ?",
+      "answer": "Antoine de Saint-Exupéry"
+    },
+    {
+      "question": "Quel est l'organe qui permet la respiration chez l'homme ?",
+      "answer": "Les poumons"
+    },
+    {
+      "question": "Quelle est la formule chimique de l'eau ?",
+      "answer": "H2O"
+    },
+    {
+      "question": "Qui a découvert la pénicilline ?",
+      "answer": "Alexander Fleming"
+    },
+    {
+      "question": "Quel est l'animal terrestre le plus rapide ?",
+      "answer": "Le guépard"
+    },
+    {
+      "question": "Dans quel pays se trouve la Tour Eiffel ?",
+      "answer": "La France"
+    },
+    {
+      "question": "Quel est le plus grand mammifère marin ?",
+      "answer": "La baleine bleue"
+    },
+    {
+      "question": "Quelle est la langue la plus parlée dans le monde ?",
+      "answer": "Le mandarin"
+    },
+    {
+      "question": "Quel est le symbole chimique du fer ?",
+      "answer": "Fe"
+    },
+    {
+      "question": "Qui a écrit 'Roméo et Juliette' ?",
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Quel est le plus grand continent du monde ?",
+      "answer": "L'Asie"
+    },
+    {
+      "question": "Quel est le sport le plus populaire au monde ?",
+      "answer": "Le football"
+    },
+    {
+      "question": "Qui a inventé le téléphone ?",
+      "answer": "Alexander Graham Bell"
+    },
+    {
+      "question": "Quel est l'élément le plus abondant dans l'univers ?",
+      "answer": "L'hydrogène"
+    },
+    {
+      "question": "Quelle est la capitale de l'Italie ?",
+      "answer": "Rome"
+    },
+    {
+      "question": "Quelle est la montagne la plus élevée d'Afrique ?",
+      "answer": "Le Kilimandjaro"
+    },
+    {
+      "question": "Quel est le pays le plus peuplé du monde ?",
+      "answer": "La Chine"
+    },
+    {
+      "question": "Quelle est la couleur obtenue par le mélange du bleu et du jaune ?",
+      "answer": "Le vert"
+    },
+    {
+      "question": "Qui a peint 'La Nuit étoilée' ?",
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "question": "Quel est le pays d'origine du tango ?",
+      "answer": "L'Argentine"
+    },
+    {
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "answer": "Berlin"
+    },
+    {
+      "question": "Quel est l'instrument de musique avec 88 touches ?",
+      "answer": "Le piano"
+    },
+    {
+      "question": "Combien de continents compte la Terre ?",
+      "answer": "7"
+    },
+    {
+      "question": "Qui a écrit '1984' ?",
+      "answer": "George Orwell"
+    },
+    {
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "answer": "Madrid"
+    },
+    {
+      "question": "Quel organe permet la vision ?",
+      "answer": "L'œil"
+    },
+    {
+      "question": "Quel est le plus grand animal terrestre ?",
+      "answer": "L'éléphant d'Afrique"
+    },
+    {
+      "question": "Quel est le plus grand reptile du monde ?",
+      "answer": "Le crocodile d'eau salée"
+    },
+    {
+      "question": "Quelle est la capitale du Royaume-Uni ?",
+      "answer": "Londres"
+    },
+    {
+      "question": "Quel est le plus petit pays du monde ?",
+      "answer": "Le Vatican"
+    },
+    {
+      "question": "Qui a écrit 'L'Alchimiste' ?",
+      "answer": "Paulo Coelho"
+    },
+    {
+      "question": "Quelle est la formule chimique du dioxyde de carbone ?",
+      "answer": "CO2"
+    },
+    {
+      "question": "Quel est l'instrument à cordes pincées le plus connu ?",
+      "answer": "La guitare"
+    },
+    {
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "answer": "La Lune"
+    },
+    {
+      "question": "Quelle est la capitale du Canada ?",
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Quel est l'organe principal du système digestif ?",
+      "answer": "L'estomac"
+    },
+    {
+      "question": "Qui est l'auteur de 'Harry Potter' ?",
+      "answer": "J.K. Rowling"
+    },
+    {
+      "question": "Quel est le plus grand lac d'eau douce ?",
+      "answer": "Le lac Supérieur"
+    },
+    {
+      "question": "Quelle est la monnaie du Royaume-Uni ?",
+      "answer": "La livre sterling"
+    },
+    {
+      "question": "Quel est l'élément chimique dont le symbole est Na ?",
+      "answer": "Le sodium"
+    },
+    {
+      "question": "Qui a écrit 'Le Seigneur des Anneaux' ?",
+      "answer": "J.R.R. Tolkien"
+    },
+    {
+      "question": "Quel est le plus grand volcan actif du monde ?",
+      "answer": "Mauna Loa"
+    },
+    {
+      "question": "Quelle est la capitale de la Suisse ?",
+      "answer": "Berne"
+    },
+    {
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "answer": "Le Sahara"
+    },
+    {
+      "question": "Quel est le plus grand état des États-Unis par superficie ?",
+      "answer": "L'Alaska"
+    },
+    {
+      "question": "Quelle est la ville la plus peuplée du monde ?",
+      "answer": "Tokyo"
+    },
+    {
+      "question": "Quel est le nom de l'outil de navigation par satellite de l'Union européenne ?",
+      "answer": "Galileo"
+    },
+    {
+      "question": "Quel est l'élément dont le symbole est C ?",
+      "answer": "Le carbone"
+    },
+    {
+      "question": "Qui a composé la 9ème symphonie ?",
+      "answer": "Ludwig van Beethoven"
+    },
+    {
+      "question": "Quel est le nom de la plus longue rivière d'Asie ?",
+      "answer": "Le Yangtsé"
+    },
+    {
+      "question": "Quelle est la capitale de la Russie ?",
+      "answer": "Moscou"
+    },
+    {
+      "question": "Quel est l'organe principal du système nerveux ?",
+      "answer": "Le cerveau"
+    },
+    {
+      "question": "Qui a écrit 'Le Comte de Monte-Cristo' ?",
+      "answer": "Alexandre Dumas"
+    },
+    {
+      "question": "Quel est le plus grand archipel du monde ?",
+      "answer": "L'Indonésie"
+    },
+    {
+      "question": "Quel est le sport national du Japon ?",
+      "answer": "Le sumo"
+    },
+    {
+      "question": "Quelle est la langue officielle du Brésil ?",
+      "answer": "Le portugais"
+    },
+    {
+      "question": "Quel est le pays d'origine du reggae ?",
+      "answer": "La Jamaïque"
+    },
+    {
+      "question": "Quel est le nom du fondateur de Microsoft ?",
+      "answer": "Bill Gates"
+    },
+    {
+      "question": "Quelle est la capitale de l'Inde ?",
+      "answer": "New Delhi"
+    },
+    {
+      "question": "Quel est le nom de la mission spatiale qui a conduit les premiers hommes sur la Lune ?",
+      "answer": "Apollo 11"
+    },
+    {
+      "question": "Quel est le plus grand pays d'Amérique du Sud ?",
+      "answer": "Le Brésil"
+    },
+    {
+      "question": "Quel est le nom du roman de George Orwell sur une société dystopique ?",
+      "answer": "1984"
+    },
+    {
+      "question": "Quel est le nom de la planète rouge ?",
+      "answer": "Mars"
+    },
+    {
+      "question": "Quel est l'instrument de musique à vent le plus répandu ?",
+      "answer": "La flûte"
+    },
+    {
+      "question": "Quel est le plus grand lac salé du monde ?",
+      "answer": "La mer Caspienne"
+    },
+    {
+      "question": "Quel est le nom de la monnaie utilisée au Japon ?",
+      "answer": "Le yen"
+    },
+    {
+      "question": "Quel est le plus grand édifice religieux du monde ?",
+      "answer": "Angkor Wat"
+    },
+    {
+      "question": "Quel est le plus grand producteur de vin au monde ?",
+      "answer": "L'Italie"
+    },
+    {
+      "question": "Quel phénomène naturel se révèle lors d'une éclipse solaire totale ?",
+      "answer": "La couronne solaire"
+    },
+    {
+      "question": "Quel est le nom du deuxième plus grand océan du monde ?",
+      "answer": "L'océan Atlantique"
+    },
+    {
+      "question": "Quel est le pays le plus visité au monde ?",
+      "answer": "La France"
+    },
+    {
+      "question": "Quel est le nom de la célèbre tour penchée en Italie ?",
+      "answer": "La tour de Pise"
+    },
+    {
+      "question": "Quel est le principal gaz à effet de serre ?",
+      "answer": "Le dioxyde de carbone"
+    },
+    {
+      "question": "Quel est le plus grand lac d'Afrique ?",
+      "answer": "Le lac Victoria"
+    },
+    {
+      "question": "Quel organe régule la température corporelle ?",
+      "answer": "La peau"
+    },
+    {
+      "question": "Qui a écrit 'Le Rouge et le Noir' ?",
+      "answer": "Stendhal"
+    },
+    {
+      "question": "Quel organe filtre le sang chez l'humain ?",
+      "answer": "Les reins"
+    },
+    {
+      "question": "Quel est le détective le plus célèbre de la fiction ?",
+      "answer": "Sherlock Holmes"
+    },
+    {
+      "question": "Quel est le pays d'origine du rugby ?",
+      "answer": "L'Angleterre"
+    },
+    {
+      "question": "Quel est le plus grand parc à thème du monde ?",
+      "answer": "Walt Disney World"
+    },
+    {
+      "question": "Quelle est la capitale de l'Argentine ?",
+      "answer": "Buenos Aires"
+    },
+    {
+      "question": "Quel est le nom de l'art martial japonais le plus connu ?",
+      "answer": "Le judo"
+    },
+    {
+      "question": "Qui est l'inventeur de l'ampoule électrique ?",
+      "answer": "Thomas Edison"
+    },
+    {
+      "question": "Quelle discipline étudie les êtres vivants ?",
+      "answer": "La biologie"
+    }
+  ]
+  
